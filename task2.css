@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:ital,wght@1,200&family=Roboto:wght@900&family=Sacramento&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    background-color: #F9F5F6;
+}
+
+#header {
+    width: 100vw;
+    height: 10vh;
+    background-color: #00000037;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+#headerleft {
+    width: 20%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+
+#header #headerleft h3 {
+    color: rgb(74, 73, 73);
+    font-size: 20px;
+}
+
+#header #headerright {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+
+#header #headerright a {
+    text-decoration: none;
+    color: rgb(96, 94, 94);
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+#content {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    padding: 10px 40px;
+    padding-top: 100px;
+    /* background-color: aquamarine; */
+}
+
+#contentleft {
+    width: 60%;
+    padding-left: 40px;
+}
+
+#contentleft h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#contentleft button {
+    background-color: #6c6cf5;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 70px;
+    box-shadow: 1px 2px 15px rgb(169, 160, 160);
+}
+
+#contentleft #icon {
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+#icon a {
+    text-decoration: none;
+    color: #000;
+}
+
+#contentleft #icon i {
+    margin-right: 20px;
+}
+
+#contentright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+#contentright #image {
+    margin-right: 140px;
+}
+
+#contentright #image #bgimage {
+    overflow: hidden;
+    width: 550px;
+}
+
+#contentright #anil {
+    position: absolute;
+    left: 61%;
+    top: 38%;
+    height: 340px;
+    width: 420px;
+    border-radius: 50%;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+#about h1 {
+    position: absolute;
+    color: #6c6cf5;
+}
+
+#aboutleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    width: 100%;
+    height: 600px;
+}
+
+#aboutleft #imgdiv {
+    overflow: hidden;
+}
+
+#aboutleft #imgdiv img {
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 5px; */
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+#aboutright {
+    width: 100%;
+    height: 600px;
+    padding-right: 20px;
+}
+
+#aboutright h3 {
+    margin-top: 210px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#aboutright p {
+    line-height: 26px;
+    word-spacing: 2px;
+    color: rgb(120, 118, 118);
+    font-size: 14px;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+
+#skills h1 {
+    position: absolute;
+    color: #6c6cf5;
+}
+
+#skillsleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+#skillsright {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+#skillsright #skillsrightimg img {
+    width: 500px;
+    height: 300px;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+#overlay {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.18);
+    border-radius: 6px;
+    margin-top: 40px;
+}
+
+#skillsleftskill {
+    width: 450px;
+    height: 400px;
+    margin-left: 150px;
+}
+
+#skillsleftskill p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(132, 129, 129);
+}
+
+#skillsleftskill h3 {
+    color: rgb(31, 30, 30);
+    font-weight: 500;
+}
+
+#skillsleftskill h3 i {
+    color: #6c6cf5;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#skillsleftskill #skilldiv {
+    background-color: rgb(252, 251, 251);
+    margin-bottom: 10px;
+    padding: 4px 10px;
+    border-radius: 2px;
+    border-bottom: 3px solid #7d7df7;
+    box-shadow: 1px 2px 5px rgb(193, 183, 183);
+}
+
+#certificates {
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+#certificates h1 {
+    color: #6c6cf5;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#upperdiv {
+    margin-top: 100px;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#upperdiv .img1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+#lowerdiv {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#lowerdiv .img1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+#contact {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+#contact h1 {
+    margin-top: 100px;
+    color: #6c6cf5;
+}
+
+#contact #form {
+    margin-top: 100px;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 220, 220);
+    /* margin-bottom: 100px; */
+}
+
+#form input {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px rgb(206, 198, 198);
+}
+
+#form #submitbtn {
+    width: 150px;
+    margin-left: 75px;
+    margin-top: 40px;
+    background-color: #9696eb;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 1px 3px 10px rgb(190, 182, 182);
+}
